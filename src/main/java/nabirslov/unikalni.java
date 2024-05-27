@@ -11,7 +11,7 @@ public class unikalni {
     }
 
     public static void processString(String input) {
-        String[] words = input.split("[,\\s]+"); // [\\s,]+ - любой пробел или запятая
+        String[] words = input.split("[,\\s]+");
 
         Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 
