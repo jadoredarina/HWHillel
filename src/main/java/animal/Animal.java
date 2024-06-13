@@ -35,10 +35,11 @@ public class Animal {
     public int getNoOfLegs() {
         return noOfLegs;
     }
-
     public void setNoOfLegs(int noOfLegs) {
         this.noOfLegs = noOfLegs;
     }
 }
+
+
 
 

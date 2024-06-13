@@ -10,9 +10,9 @@ public class Cat extends Animal {
 
     public Cat(boolean vegetarian, String eats, int noOfLegs) {
         super(vegetarian, eats, noOfLegs);
-        this.color = "po umolchaniju";
-
+        this.color = "Unknown";
     }
+
     public String getColor() {
         return color;
     }
@@ -21,3 +21,4 @@ public class Cat extends Animal {
         this.color = color;
     }
 }
+
